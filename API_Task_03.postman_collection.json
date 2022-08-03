@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "5c4e6464-954a-4b58-9caa-00dea816b4f1",
+		"name": "API_Task_03",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22567668"
+	},
+	"item": [
+		{
+			"name": "Cars",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44316/api/cars/get/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44316",
+							"path": [
+								"api",
+								"cars",
+								"get",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44316/api/cars",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44316",
+							"path": [
+								"api",
+								"cars"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"brand\":\"Volvo\",\r\n    \"model\":\"VV-87\",\r\n    \"price\":34.00,\r\n    \"Color\":\"Blue\",\r\n    \"Display\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44316/api/cars/create",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44316",
+							"path": [
+								"api",
+								"cars",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"brand\":\"Lexus\",\r\n    \"model\":\"VV-87\",\r\n    \"price\":34.00,\r\n    \"Color\":\"Blue\",\r\n    \"Display\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44316/api/cars/update/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44316",
+							"path": [
+								"api",
+								"cars",
+								"update",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44316/api/cars/delete/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44316",
+							"path": [
+								"api",
+								"cars",
+								"delete",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Change",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:44316/api/cars/change/5?display=true",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44316",
+							"path": [
+								"api",
+								"cars",
+								"change",
+								"5"
+							],
+							"query": [
+								{
+									"key": "display",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
