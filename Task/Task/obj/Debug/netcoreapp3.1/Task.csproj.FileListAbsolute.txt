@@ -58,3 +58,7 @@ C:\Users\sabir\OneDrive\Рабочий стол\API tasks\03.08\Task\Task\obj\De
 C:\Users\sabir\OneDrive\Рабочий стол\API tasks\03.08\Task\Task\obj\Debug\netcoreapp3.1\Task.dll
 C:\Users\sabir\OneDrive\Рабочий стол\API tasks\03.08\Task\Task\obj\Debug\netcoreapp3.1\Task.pdb
 C:\Users\sabir\OneDrive\Рабочий стол\API tasks\03.08\Task\Task\obj\Debug\netcoreapp3.1\Task.genruntimeconfig.cache
+C:\Users\sabir\OneDrive\Рабочий стол\API tasks\03.08\Task\Task\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\sabir\OneDrive\Рабочий стол\API tasks\03.08\Task\Task\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\sabir\OneDrive\Рабочий стол\API tasks\03.08\Task\Task\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\sabir\OneDrive\Рабочий стол\API tasks\03.08\Task\Task\obj\Debug\netcoreapp3.1\Task.MvcApplicationPartsAssemblyInfo.cs

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Task.DAL.Configurations;
 using Task.Models;
 
 namespace Task.DAL
@@ -9,6 +10,11 @@ namespace Task.DAL
         {
 
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new CarConfiguration());
+        }
         public DbSet<Car> Cars { get; set; }
+        public DbSet<Engine> Engines { get; set; }
     }
 }
